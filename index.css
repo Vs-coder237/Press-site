@@ -6,13 +6,19 @@
 
 body {
     width: 100vw;
-    font-size: 1.4rem;
+    font-size: 10px;
+}
+:root {
+    --palegreen: #618264;
+    --blackcolor: #000E01;
 }
 
 .navbar {
     font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
     align-items: center;
 }
 
@@ -23,7 +29,6 @@ a {
 
 ul {
     display: flex;
-    flex-direction: row;
     list-style: none;
     gap: 2rem;
 }
@@ -37,14 +42,15 @@ button {
     border-radius: 28px;
     color: #ffffff;
     background-color: #618264;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem ;
     font-weight: bold;
-    margin: px;
+    cursor: pointer;
 }
 
 .container {
     display: flex;
     gap: 3rem;
+    justify-content: center;
 
 }
 
@@ -64,7 +70,7 @@ button {
     font-weight: 600;
 }
 p{
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .primary{
@@ -76,7 +82,7 @@ p{
 .primary>img{
     width: 235px;
     height: 150px;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .text{
@@ -88,6 +94,7 @@ p{
 .secondSection {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 10rem;
     margin-top: 70px;
 }
@@ -100,9 +107,37 @@ p{
     font-size: 13px;
     font-weight: 400;
     font-style: italic;
-    color: #79AC78;
+    color: var(--palegreen);
 }
 .activity {
     font-weight: 600;
     font-size: 24px;
+    color: var(--blackcolor);
+}
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    gap: 2rem;
+}
+
+.thirdSection > h2 {
+    font-weight: 600;
+    font-size: 3.3rem;
+    color: var(--blackcolor)
+}
+
+.thirdSection > img{
+    width: 1120;
+    height: 623;
+    border-radius: 2rem;
+}
+.alone {
+    font-weight: 600;
+    font-size: 3.3rem;
+    color: var(--blackcolor);
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
 }
