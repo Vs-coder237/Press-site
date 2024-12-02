@@ -2,11 +2,16 @@
     padding: 0;
     border: 0;
     margin: 0;
+    box-sizing: border-box;
 } 
+html {
+    font-size: 10px;
+}
 
 body {
     width: 100vw;
-    font-size: 10px;
+    height: 100vh;
+    font-size: 1.6rem;
 }
 :root {
     --palegreen: #618264;
@@ -137,7 +142,51 @@ p{
     font-weight: 600;
     font-size: 3.3rem;
     color: var(--blackcolor);
-    padding-top: 5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 13.4rem;
+    padding-bottom: 7.8rem;
     text-align: center;
+}
+
+.forthSection {
+    display: flex;
+    align-items: center;
+    margin-left: 6.5rem;
+    gap: 4.4rem;
+}
+
+.forthSection h1 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: var(--palegreen);
+}
+
+.forthSection img {
+    width: 71.8rem;
+    height: 47.1rem;
+    border-radius: 2rem;
+}
+
+.forthSection p {
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: var(--blackcolor);
+}
+
+.forthSection .canalmatin {
+    display: flex;
+    flex-direction: column;
+    gap: 4.0rem;
+}
+
+.icons{
+    color: var(--palegreen);
+ }
+
+i {
+    /* text-shadow: 0.2rem 0.4rem 0.6rem orange; */
+}
+
+.fa {
+    width: 3.193rem;
+    height: 3.648rem;
 }
