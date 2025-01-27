@@ -12,7 +12,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-size: 1.6rem;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 :root {
     --palegreen: #618264;
@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
+    padding: 2rem;
     align-items: center;
 }
 
@@ -36,7 +36,7 @@ a {
 ul {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 2.1rem;
 }
 
 .canal2{
@@ -58,6 +58,26 @@ button {
     gap: 3rem;
     justify-content: center;
     padding-top: 3.0rem;
+}
+
+.dayContent {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.emptycontent {
+    width: 1.3rem;
+    height: 5.0rem;
+    background-color: var(--palegreen);
+    border-radius: 2.0rem;
+}
+
+.headercontent {
+    font-size: 2.0rem;
+    line-height: 2.6rem;
+    font-weight: 600;
+    color: var(--blackcolor);
 }
 
 .francis{
@@ -183,9 +203,7 @@ p{
 
  }
 
-i {
-    /* text-shadow: 0.2rem 0.4rem 0.6rem orange; */
-}
+
 
 .fa {
     width: 3.193rem;
@@ -196,8 +214,8 @@ i {
     display: flex;
     justify-content: space-between;
     padding: 6rem;
-    
 }
+
 .sixthSection {
     display: flex;
     flex: 1;
@@ -233,4 +251,60 @@ i {
     line-height: 3.268rem;
 }
 
+.seventhSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10.4rem;
+}
+.seventhSection .publicite h1 {
+    font-size: 4.8rem;
+    font-weight: bold;
+    line-height: 6.24rem;
+    color: var(--palegreen);
+}
 
+.seventhSection .publicite {
+    rotate: 90deg;
+}
+
+.seventhSection .top {
+    width: 1.3rem;
+    height: 5.0rem;
+    background-color: var(--palegreen);
+}
+
+.seventhSection .publicite img{
+    width: 137.8rem;
+    height: 57.9rem;
+}
+
+.eigthSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 7.8rem;
+}
+
+.footer {
+    background-color: #79AC78;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 151.2rem;
+    height: 42.6rem;
+}
+
+.footer img {
+    width: 37.2rem;
+    height: 21.3rem;
+}
+
+.footer i {
+    color: #ffffff;
+}
+
+.footer .icons {
+    display: flex;
+    gap: 4.602rem;
+}
